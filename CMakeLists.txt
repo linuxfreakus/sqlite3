@@ -16,7 +16,7 @@ project(${PROJECT_NAME} C)
 message("Building on: ${CMAKE_SYSTEM_NAME}")
 
 option(SQLITE_BUILD_STATIC  "Build SQLite static library" ON)
-option(SQLITE_BUILD_SHARED  "Build SQLite shared library" ON)
+option(SQLITE_BUILD_SHARED  "Build SQLite shared library" OFF)
 option(WITH_SQLITE_DEBUG    "Build SQLite debug features" OFF)
 option(WITH_SQLITE_MEMDEBUG "Build SQLite memory debug features" OFF)
 option(WITH_SQLITE_RTREE    "Build R*Tree index extension" OFF)
